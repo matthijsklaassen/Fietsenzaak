@@ -1,5 +1,5 @@
 <?php
-echo "body {
+echo 'body {
     /* achtergrond? */
     background-image: url(Afbeeldingen/achtergrond.jpg);
     background-repeat: repeat; /* herhaalt de afbeelding zodat de achtergrond doorloopt */
@@ -214,6 +214,6 @@ th, td {
 /*
 (li) a:visited {
     color: black;
-}
-*/"
+}'
+*/
 ?>
