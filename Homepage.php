@@ -15,12 +15,10 @@ echo <html xmlns="http://www.w3.org/1999/xhtml">
     <!-- Menubalk -->
     <div id="menubalk">
       <ul>
-        <li><a class="active" href="Typ hier uw tekst.html">Typ hier uw tekst</a></li>
-        <li><a href="Typ hier uw tekst.html">Typ hier uw tekst</a></li>
-        <li><a href="Typ hier uw tekst.html">Typ hier uw tekst</a></li>
-        <li><a href="Typ hier uw tekst.html">Typ hier uw tekst</a></li>
-        <li><a href="Typ hier uw tekst.html">Typ hier uw tekst</a></li>
-        <li><a href="Typ hier uw tekst.html">Typ hier uw tekst</a></li>
+        <li><a class="active" href="Homepage.php">Home</a></li>
+        <li><a href="Firstpage.php">Formulier</a></li>
+        <li><a href="Secondpage.php">Toevoegquery PK</a></li>
+        <li><a href="Thirdpage.php">Extra PHP dingen</a></li>
       </ul>
     </div>
 
@@ -29,7 +27,7 @@ echo <html xmlns="http://www.w3.org/1999/xhtml">
            src: welk plaatje / waar komt het plaatje vandaan-->
     
     <p id="slogan">
-      Typ hier uw tekst </br></p>
+      Fietsenzaak PHP </br></p>
     
   </body>
   
