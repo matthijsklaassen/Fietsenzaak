@@ -6,7 +6,7 @@ echo <html xmlns="http://www.w3.org/1999/xhtml">
     <link href="CSSFILE.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8">
     
-    <title>Typ hier uw tekst</title>
+    <title>De lekke band</title>
     
   </head>
 
@@ -28,7 +28,7 @@ echo <html xmlns="http://www.w3.org/1999/xhtml">
            src: welk plaatje / waar komt het plaatje vandaan-->
     
     <p id="slogan">
-      De lekke band </br></p>
+       Maakt kromme spaken recht </br></p>
     
   </body>
   
