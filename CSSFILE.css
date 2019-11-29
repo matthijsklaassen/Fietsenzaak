@@ -71,6 +71,18 @@ li a:hover {
     background-color: #008080;
     color: white;
 }
+
+#welkom {
+    font-family: "Courier New",Courier, monospace;
+    font-size: 15px;
+    display: block;
+    padding-left: 2%;
+    width: 45%;
+    margin: 30% 0 0 23%; /* boven, rechts, onder, links */
+    background-color: #008080;
+    color: white;
+}
+    
 /* Spelregels */
 .picture {
     margin-left: 21%;
