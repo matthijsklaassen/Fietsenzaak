@@ -8,7 +8,7 @@
         <link href="CSSFILE.css" rel="stylesheet" type="text/css"/>
         <meta charset="utf-8">
         
-        <title>Formulier</title>
+        <title>Formulier_fiets</title>
         
     </head>
     
@@ -24,16 +24,16 @@
           </ul>
         </div>
             
-        <h1> Toeleverancier </h1>
+        <h1>Fiets</h1>
         <hr>
         <p>
             Op deze pagina is het mogelijk om de database aan te passen. 
-            Door middel van onderstaand formulier kunnen nieuwe toeleveranciers worden ingevoerd.
+            Door middel van onderstaand formulier kunnen nieuwe fietsen worden ingevoerd.
         </p>
 
         <form method="post" action="">
-	        <label>Naam</label>
- 	        <input type="text" name="TI_naam">
+	        <label>merk</label>
+ 	        <input type="text" name="merk"> // ik ben hier gebleven met aanpassen.
              
 	        <label>Adres</label>
         	<input type="text" name="TI_onderwerp">
