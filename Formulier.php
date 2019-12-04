@@ -51,15 +51,15 @@
 </html>
 
 <?php 
-include("databaseconnectie.php");
+include("ConnectionDatabase.php");
 
 if(isset($_POST['verzenden'])) {
     $naam = $_POST['TI_naam'];
     $adres = $_POST['TI_adres'];
     $email = $_POST['TI_email'];
     $bankrekeningnummer = $_POST['TI_bankrekeningnummer'];
-
-	echo "<br><br><br>";o "Naam: " . $naam . "<br>";
+	
+echo "<br><br><br>"; "Naam: " . $naam . "<br>";
     echo "Adres: " . $adres . "<br>";
     echo "Email: " . $email . "<br>";
     echo "Bankrekeningnummer: " . $bankrekeningnummer . "<br>";
