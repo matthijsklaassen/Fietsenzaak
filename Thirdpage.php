@@ -1,3 +1,3 @@
 <?php 
-include("databaseconnectie.php");
+include("ConnectionDatabase.php");
 ?>
