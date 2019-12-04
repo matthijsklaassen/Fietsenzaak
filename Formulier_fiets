@@ -32,17 +32,23 @@
         </p>
 
         <form method="post" action="">
-	        <label>merk</label>
- 	        <input type="text" name="merk"> // ik ben hier gebleven met aanpassen.
+	        <label>Merk</label>
+ 	        <input type="text" name="Merk"> 
              
-	        <label>Adres</label>
-        	<input type="text" name="TI_onderwerp">
+	        <label>Type_fiets</label>
+        	<input type="text" name="Type_fiets">
+		
+	        <label>Bouwjaar</label>
+	        <input type="text" name="Bouwjaar">
 
-	        <label>Email</label>
-	        <input type="text" name="TI_email">
-
-            <label>Bankrekeningnummer</label>
-	        <input type="text" name="TI_bankrekeningnummer">
+            <label>Framemaat</label>
+	        <input type="text" name="Framemaat">
+		
+	<label>Omschrijving</label>
+	        <input type="text" name="Omschrijving">
+		
+		<label>Staat</label>
+	        <input type="text" name="Staat">
             
             <br>
         	<input type="submit" name="verzenden" value="Verzenden">
@@ -54,21 +60,27 @@
 include("databaseconnectie.php");
 
 if(isset($_POST['verzenden'])) {
-    $naam = $_POST['TI_naam'];
-    $adres = $_POST['TI_adres'];
-    $email = $_POST['TI_email'];
-    $bankrekeningnummer = $_POST['TI_bankrekeningnummer'];
+    $Merk = $_POST['Merk'];
+    $Type_fiets = $_POST['Type_fiets'];
+    $Bouwjaar = $_POST['Bouwjaar'];
+    $Framemaat = $_POST['Framemaat'];
+    $Omschrijving = $_POST['Omschrijving'];
+    $Staat = $_POST['Staat'];
 
 	echo "Het formulier is verzonden!<br>";
-	echo "Naam: " . $naam . "<br>";
-    echo "Adres: " . $adres . "<br>";
-    echo "Email: " . $email . "<br>";
-    echo "Bankrekeningnummer: " . $bankrekeningnummer . "<br>";
+	echo "Merk: " . $Merk . "<br>";
+    echo "Type_fiets: " . $Type_fiets . "<br>";
+    echo "Bouwjaar: " . $Bouwjaar . "<br>";
+    echo "Framemaat: " . $Framemaat . "<br>";
+     echo "Omschrijving: " . $Omschrijving . "<br>";
+      echo "Staat: " . $Staat . "<br>";
 	echo "<br><br><br>";
 }   else {
-    $naam = "";
-    $adres = "";
-    $email = "";
-    $bankrekeningnummer = "";
+    $Merk = "";
+    $Type_fiets = "";
+    $Bouwjaar = "";
+    $Framemaat = "";
+    $Omschrijving = "";
+    $Staat = "";
     }
 ?>
