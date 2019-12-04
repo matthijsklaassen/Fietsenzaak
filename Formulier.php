@@ -24,7 +24,6 @@
           </ul>
         </div>
             
-<<<<<<< HEAD
         <h1> Toeleverancier </h1>
         <hr>
         <p>
@@ -42,7 +41,7 @@
 	        <label>Email</label>
 	        <input type="text" name="TI_email" value="<?php echo $email ?>">
 
-            <label>Bankrekeningnummer</label>
+            	<label>Bankrekeningnummer</label>
 	        <input type="text" name="TI_bankrekeningnummer" value="<?php echo $bankrekeningnummer?>">
             
             <br>
@@ -73,22 +72,3 @@ if(isset($_POST['verzenden'])) {
     $bankrekeningnummer = "";
     }
 ?>
-=======
-        <h1> Formulier </h1>
-        <hr>
-        <p>
-            Op deze pagina is het mogelijk om de database aan te passen. 
-            Door middel van het onderstaande formulier kunnen er nieuwe fietsen, nieuwe klanten, nieuwe orders worden ingevuld.
-            Zo is het mogelijk om de database op een efficiënte manier up to date te houden.
-        </p>             
-    
-    </body> 
-
-</html>
-
-<?php 
-// Backend van het formulier
-
-
-?>
->>>>>>> 531f9d245e22383e30e628ab44ff95b07407d706
