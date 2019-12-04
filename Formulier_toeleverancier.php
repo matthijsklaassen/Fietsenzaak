@@ -64,8 +64,9 @@ echo "<br><br><br>"; "Naam: " . $naam . "<br>";
     echo "Email: " . $email . "<br>";
     echo "Bankrekeningnummer: " . $bankrekeningnummer . "<br>";
     echo "<br><br><br>";
-    
-}   else {
+}   
+
+else {
     $naam = "";
     $adres = "";
     $email = "";
