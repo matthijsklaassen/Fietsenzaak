@@ -33,16 +33,16 @@
 
         <form method="post" action="">
 	        <label>Naam</label>
- 	        <input type="text" name="TI_naam" value="<?php echo $naam ?>">
+ 	        <input type="text" name="TI_naam" value="<?php echo "$naam" ?>">
              
 	        <label>Adres</label>
-        	<input type="text" name="TI_onderwerp" value="<?php echo $adres ?>">
+        	<input type="text" name="TI_onderwerp" value="<?php echo "$adres" ?>">
 
 	        <label>Email</label>
-	        <input type="text" name="TI_email" value="<?php echo $email ?>">
+	        <input type="text" name="TI_email" value="<?php echo "$email" ?>">
 
             	<label>Bankrekeningnummer</label>
-	        <input type="text" name="TI_bankrekeningnummer" value="<?php echo $bankrekeningnummer?>">
+	        <input type="text" name="TI_bankrekeningnummer" value="<?php echo "$bankrekeningnummer"?>">
             
             <br>
         	<input type="submit" name="verzenden" value="Verzenden">
@@ -72,4 +72,15 @@ else {
     $email = "";
     $bankrekeningnummer = "";
     }
+
+$sql = "INSERT INTO Toeleverancier (Naam, Adres, Email, Bankrekeningnummer)
+VALUES ("$naam", "$adres", "$email", "$bankrekeningnummer")"
+
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
 ?>
