@@ -36,5 +36,35 @@ if ($conn->query($klantq) === TRUE) {
 $conn->close();
 ?>
 
-<HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        
+        <link href="CSSFILE.css" rel="stylesheet" type="text/css"/>
+        <meta charset="utf-8">
+        
+        <title>Formulier</title>
+        
+    </head>
     
+    <body>
+
+        <!-- Menubalk -->
+        <div id="menubalk">
+          <ul>
+            <li><a href="Homepage.php">Home</a></li>
+            <li><a href="fomrulier.php">Spelregels</a></li>
+            <li><a href="Secondpage.php">Toevoegquery PK</a></li>
+            <li><a class="active" href="Thirdpage.php">Extra PHP dingen</a></li>
+          </ul>
+        </div>
+            
+        <h1> Aantallen </h1>
+        <hr>
+        <p>
+            Op deze pagina is het aantal leveranciers, fietsen op voorraad, klanten en orders te zien.
+        </p><br>
+        
+        TABEL MAKEN
+    </body> 
+</html>
