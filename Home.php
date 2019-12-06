@@ -15,9 +15,9 @@
     <!-- Menubalk -->
     <div id="menubalk">
       <ul>
-        <li><a class="active" href="Homepage.php">Home</a></li>
+        <li><a class="active" href="Home.php">Home</a></li>
         <li><a href="Firstpage.php">Formulier</a></li>
-        <li><a href="Secondpage.php">Toevoegquery PK</a></li>
+        <li><a href="Formulier_toeleverancier.php">Formulier</a></li>
         <li><a href="Thirdpage.php">Extra PHP dingen</a></li>
       </ul>
     </div>
