@@ -66,7 +66,7 @@ $conn->close();
         </p><br>
         
         //tabel maken
-        
+        <table>
         <tr>
             <th>Aantal fietsen</th>
             <th>$fietsenq</th>
@@ -83,6 +83,6 @@ $conn->close();
             <th>Aantal klaten</th>
             <th>$klantq</th>
         </tr>
-        
+        </table>
     </body> 
 </html>
