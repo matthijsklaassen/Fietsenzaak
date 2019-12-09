@@ -65,6 +65,24 @@ $conn->close();
             Op deze pagina is het aantal leveranciers, fietsen op voorraad, klanten en orders te zien.
         </p><br>
         
-        TABEL MAKEN
+        //tabel maken
+        
+        <tr>
+            <th>Aantal fietsen</th>
+            <th>$fietsenq</th>
+        </tr>
+        <tr>
+            <th>Aantal leveranciers</th>
+            <th>$leverancierq</th>
+        </tr>
+        <tr>
+            <th>Aantal orders</th>
+            <th>$verkoopq</th>
+        </tr>
+        <tr>
+            <th>Aantal klaten</th>
+            <th>$klantq</th>
+        </tr>
+        
     </body> 
 </html>
