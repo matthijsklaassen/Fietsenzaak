@@ -52,10 +52,9 @@ $conn->close();
         <!-- Menubalk -->
         <div id="menubalk">
           <ul>
-            <li><a href="Homepage.php">Home</a></li>
-            <li><a href="fomrulier.php">Spelregels</a></li>
-            <li><a href="Secondpage.php">Toevoegquery PK</a></li>
-            <li><a class="active" href="Thirdpage.php">Extra PHP dingen</a></li>
+            <li><a href="Home.php">Home</a></li>
+            <li><a href="Formulier_toeleverancier.php">Formulier</a></li>
+            <li><a class="active" href="Aantallen.php">Aantallen</a></li>
           </ul>
         </div>
             
