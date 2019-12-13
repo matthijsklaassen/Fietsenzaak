@@ -50,9 +50,9 @@ li a:hover {
     border-style: none; /*(dotted/solid/double/dashed)*/
 }
 /* Homepagina */
-#home {
-    overflow-y: hidden; /* zorgt ervoor dat er niet gescrold kan worden (in de y-richting) op de home-pagina - (scroll/hidden/auto/visible) */
-}
+/*#home {
+    overflow-y: hidden;  zorgt ervoor dat er niet gescrold kan worden (in de y-richting) op de home-pagina - (scroll/hidden/auto/visible) 
+}*/
 .frontpicture {
     left: 20%;
     top: 0;
