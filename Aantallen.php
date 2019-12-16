@@ -68,19 +68,19 @@ $conn->close();
         <table>
         <tr>
             <th>Aantal fietsen</th>
-            <th>$fietsenq</th>
+            <th>"$fietsenq"</th>
         </tr>
         <tr>
             <th>Aantal leveranciers</th>
-            <th>$leverancierq</th>
+            <th>"$leverancierq"</th>
         </tr>
         <tr>
             <th>Aantal orders</th>
-            <th>$verkoopq</th>
+            <th>"$verkoopq"</th>
         </tr>
         <tr>
-            <th>Aantal klaten</th>
-            <th>$klantq</th>
+            <th>Aantal klanten</th>
+            <th>"$klantq"</th>
         </tr>
         </table>
     </body> 
