@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.1
+-- version 4.9.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 29 nov 2019 om 08:46
+-- Gegenereerd op: 16 dec 2019 om 14:20
 -- Serverversie: 10.2.27-MariaDB
--- PHP-versie: 7.2.23
+-- PHP-versie: 7.2.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -21,8 +21,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `u392629804_groep1`
 --
-CREATE DATABASE IF NOT EXISTS `u392629804_groep1` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE `u392629804_groep1`;
 
 -- --------------------------------------------------------
 
