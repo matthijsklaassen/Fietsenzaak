@@ -1,7 +1,7 @@
 <?php
-$servername = "https://auth-db307.hostinger.com/db_structure.php?server=1&db=u392629804_groep1";
-$username = "u392629804_usergroep1";
-$password = 'RwW$o1lQ';
+$servername = "remotemysql.com";
+$username = "uryRmFfURn";
+$password = "GN3VEONVDx";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
