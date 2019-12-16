@@ -2,10 +2,10 @@
 include("ConnectionDatabase.php");
 
 
-$fietsenq = "SELECT COUNT(Framenummer) FROM Fiets";
-$leverancierq = "SELECT COUNT(TL_nummer) FROM Toeleverancier";
-$verkoopq = "SELECT COUNT(Verkoopnummer) FROM Verkoop";
-$klantq = "SELECT COUNT(Klantmummer) FROM Klant";
+$fietsenq = SELECT COUNT(Framenummer) FROM Fiets;
+$leverancierq = SELECT COUNT(TL_nummer) FROM Toeleverancier;
+$verkoopq = SELECT COUNT(Verkoopnummer) FROM Verkoop;
+$klantq = SELECT COUNT(Klantmummer) FROM Klant;
 
 if ($conn->query($fietsenq) === TRUE) {
     echo "Information 'fiets' succesfully retrieved";
