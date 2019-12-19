@@ -50,20 +50,51 @@
 </html>
 
 <?php 
+//start van php gedeelte
 include("ConnectionDatabase.php");
 
+//ingevoerde waardes van het formulier verwerken in variabeles
 if(isset($_POST['verzenden'])) {
     $naam = $_POST['TI_naam'];
     $adres = $_POST['TI_adres'];
     $email = $_POST['TI_email'];
     $bankrekeningnummer = $_POST['TI_bankrekeningnummer'];
+
+	//validatie
+	if(is_string($naam) && is_string($adres) && is_string($email) && is_string($bankrekeningnummer)){ 
+		echo strip_tags($naam);
+		echo strip_tags($adres);
+		echo strip_tags($email);
+		echo strip_tags($bankrekeningnummer);
 	
-echo "<br><br><br>"; "Naam: " . $naam . "<br>";
-    echo "Adres: " . $adres . "<br>";
-    echo "Email: " . $email . "<br>";
-    echo "Bankrekeningnummer: " . $bankrekeningnummer . "<br>";
-    echo "<br><br><br>";
-}   
+	
+
+		//ingevoerde waardes van het formulier tonen
+		echo "<br><br><br>"; "Naam: " . $naam . "<br>";
+   		echo "Adres: " . $adres . "<br>";
+    		echo "Email: " . $email . "<br>";
+    		echo "Bankrekeningnummer: " . $bankrekeningnummer . "<br>";
+    		echo "<br><br><br>";
+	
+	
+		//ingevoerde waardes verwerken in de database
+		$sql = "INSERT INTO Toeleverancier (Naam, Adres, Email, Bankrekeningnummer)
+		VALUES ("$naam", "$adres", "$email", "$bankrekeningnummer")"
+
+		if ($conn->query($sql) === TRUE) {
+    			echo "New record created successfully";
+		} 
+		else {
+    			echo "Error: " . $sql . "<br>" . $conn->error;
+		}
+
+		$conn->close();
+	}
+	
+	else {
+		echo "Values cannot be validated";
+		
+	}   
 
 else {
     $naam = "";
@@ -72,14 +103,4 @@ else {
     $bankrekeningnummer = "";
     }
 
-$sql = "INSERT INTO Toeleverancier (Naam, Adres, Email, Bankrekeningnummer)
-VALUES ("$naam", "$adres", "$email", "$bankrekeningnummer")"
-
-if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
-
-$conn->close();
 ?>
