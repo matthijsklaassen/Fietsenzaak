@@ -34,7 +34,10 @@
       Speciaal voor de medewerkers is deze website opgezet om snel en gemakkelijk de voorraad van de fietsen in te kunnen zien. 
       Zo wordt voorkomen dat er opeens bepaalde fietsen niet meer in voorraad zijn of juist te veel fietsen van een soort besteld worden. 
       Raadpleeg de overzichtswebsite fietsenzaak ‘de lekke band’, dan is er met de voorraad nooit iets aan de hand!
-      Mede mogelijk gemaakt door Lennard Duynkerke, Matthijs Klaassen, Adriaan Koeman en Matilda Kolijn. <br></p>
+      Mede mogelijk gemaakt door Lennard Duynkerke, Matthijs Klaassen, Adriaan Koeman en Matilda Kolijn, vier vwo-6-leerlingen van het Calvijn College Goes, die fietsen van levensbelang achten voor onze samenleving.  
+      Deze website is gemaakt voor en praktische opdracht in vwo6, met als doel te leren programmeren met PHP. 
+      De opdracht is specifiek gericht op het maken van een database, met daaraan gekoppeld een website.
+      <br></p>
     
   </body>
   
