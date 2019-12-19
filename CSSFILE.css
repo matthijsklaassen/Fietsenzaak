@@ -1,6 +1,6 @@
 body {
     /* achtergrond? */
-    background-image: src="achtergrond.jpg";
+    background-image: url("achtergrond.jpg");
     background-repeat: repeat; /* herhaalt de afbeelding zodat de achtergrond doorloopt */
     background-color: grey;
 }
