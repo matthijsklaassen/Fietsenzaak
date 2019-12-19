@@ -32,16 +32,16 @@
 
         <form method="post" action="">
 	        <label>Naam</label>
- 	        <input type="text" name="TI_naam" value="<?php echo "$naam" ?>">
+ 	        <input type="text" name="TI_naam">
              
 	        <label>Adres</label>
-        	<input type="text" name="TI_onderwerp" value="<?php echo "$adres" ?>">
+        	<input type="text" name="TI_onderwerp">
 
 	        <label>Email</label>
-	        <input type="text" name="TI_email" value="<?php echo "$email" ?>">
+	        <input type="text" name="TI_email">
 
             	<label>Bankrekeningnummer</label>
-	        <input type="text" name="TI_bankrekeningnummer" value="<?php echo "$bankrekeningnummer"?>">
+	        <input type="text" name="TI_bankrekeningnummer">
             
             <br>
         	<input type="submit" name="verzenden" value="Verzenden">
