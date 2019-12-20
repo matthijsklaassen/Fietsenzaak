@@ -34,3 +34,57 @@
                       
     </body> 
 </html>
+
+<?php
+//eerste dropdownlijst
+$sql="SELECT klantnummer FROM klant";
+$klantnummers = array();
+$result=$con->query($sql);
+
+echo "<p>";
+echo "<select name="Klantnummers">";
+for ($i = 0; i < count($klantnummers); i++) {
+  echo "<option value = "$klantnummers[i]">$klantenummers[i]</option>";
+  }
+echo "</select>";
+echo "</p>";
+
+if(isset($_POST['formSubmit'])){
+    $selectedKlantnummer = $_POST['Klantnummers'];
+}
+
+//tweede dropdownlijst
+$sql="SELECT framenummer FROM fiets";
+$framenummers = array();
+$result2=$con->query($sql);
+
+echo "<p>";
+echo "<select name="Framenummers">";
+
+for ($i = 0; i < count($framenummers); i++) {
+  echo "<option value = "$framenummers[i]">$framenummers[i]</option>";
+  }
+echo "</select>";
+echo "</p>";
+
+if(isset($_POST['formSubmit'])){
+    $selectedFramenummer = $_POST['Framenummers'];
+}
+
+//ophalen verkoopnummer
+$sql3="SELECT LAST Verkoopnummer FROM Verkoop";
+$result3=$con->query($sql3);
+$verkoopnummer = $result3++;
+
+//toevoegquery
+$sql4 = "INSERT INTO Verkoop (Verkoopnummer, Klantnummer, Framenummer)
+		VALUES ("$verkoopnummer", "$selectedKlantnummer", "$selectedFramenummer")"
+		if ($conn->query($sql4) === TRUE) {
+    			echo "New record created successfully";
+		} 
+		else {
+    			echo "Error: " . $sql . "<br>" . $conn->error;
+		}
+		$conn->close();
+?> 
+
