@@ -19,6 +19,7 @@
           <ul>
                 <li><a href="Home.php">Home</a></li>
         	<li><a class="active" href="Formulier_toeleverancier.php">Formulier</a></li>
+		<li><a href="Dropdownlijst.php">Dropdownlijst</a></li>
         	<li><a href="Aantallen.php">Aantallen</a></li>
           </ul>
         </div>
