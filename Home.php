@@ -28,10 +28,10 @@
            src: welk plaatje / waar komt het plaatje vandaan-->
     
     <p id="slogan">
-       Maakt kromme spaken recht <br></p>
+       Fietsenzaak De lekke band: Maakt kromme spaken recht <br></p>
 
     <p id="welkom">
-      Welkom op de overzichtswebsite van fietsenzaak ‘de lekke band’. 
+      Welkom op de overzichtswebsite van fietsenzaak ‘De lekke band’. 
       Speciaal voor de medewerkers is deze website opgezet om snel en gemakkelijk de voorraad van de fietsen in te kunnen zien. 
       Zo wordt voorkomen dat er opeens bepaalde fietsen niet meer in voorraad zijn of juist te veel fietsen van een soort besteld worden. 
       Raadpleeg de overzichtswebsite fietsenzaak ‘de lekke band’, dan is er met de voorraad nooit iets aan de hand!
