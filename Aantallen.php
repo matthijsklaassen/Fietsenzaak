@@ -43,7 +43,7 @@ $conn->close();
         <link href="CSSFILE.css" rel="stylesheet" type="text/css"/>
         <meta charset="utf-8">
         
-        <title>Formulier</title>
+        <title>Aantallen</title>
         
     </head>
     
@@ -54,6 +54,7 @@ $conn->close();
           <ul>
             <li><a href="Home.php">Home</a></li>
             <li><a href="Formulier_toeleverancier.php">Formulier</a></li>
+            <li><a href="Dropdownlijst.php">Dropdownlijst</a></li>
             <li><a class="active" href="Aantallen.php">Aantallen</a></li>
           </ul>
         </div>
