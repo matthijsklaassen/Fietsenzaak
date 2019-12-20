@@ -1,20 +1,29 @@
 <?php
 
 //eerste dropdownlijst
-$klant = array (SELECT klantnummer FROM fiets)
+$sql="SELECT klantnummer FROM klant";
+$klantnummers = array();
+$result=$con->query($sql);
 
 <p>
-<select name="primary key">
-<option value="klantnummer">$klant</option>
+<select name="Klantnummers">
+for ($i = 0; i < count($klantnummers); i++) {
+  echo "<option value = "$klantnummers[i]">$klantenummers[i]</option>";
+  }
 </select>
 </p>
 
 //tweede dropdownlijst
+$sql="SELECT framenummer FROM fiets";
+$framenummers = array();
+$result=$con->query($sql);
 
-$framenummer = array (SELECT framenummer FROM klant)
 <p>
-<select name="primary key">
-<option value="framenummer">$framenummer</option>
+<select name="Framenummers">
+
+for ($i = 0; i < count($framenummers); i++) {
+  echo "<option value = "$framenummers[i]">$framenummers[i]</option>";
+  }
 </select>
 </p>
 ?> 
