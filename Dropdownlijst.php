@@ -17,9 +17,9 @@
         <!-- Menubalk -->
         <div id="menubalk">
           <ul>
-                <li><a href="Home.php">Home</a></li>
+            <li><a href="Home.php">Home</a></li>
         	<li><a href="Formulier_toeleverancier.php">Formulier</a></li>
-          <li><a class="active" href="Dropdownlijst.php">Aantallen</a></li>
+            <li><a class="active" href="Dropdownlijst.php">Aantallen</a></li>
         	<li><a href="Aantallen.php">Aantallen</a></li>
           </ul>
         </div>
