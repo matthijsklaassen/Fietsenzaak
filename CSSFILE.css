@@ -36,19 +36,8 @@ li a:hover {
     color: white;
 }
 /* alle pagina's */
-.schaakbord {
-    height: 250px;
-    width: 250px;
-}
-.afbeeldingen table {
-    margin-left: 21%;
-    border-style: none; /* bij dotted krijg je puntjes (dotted/solid/double/dashed)*/
-    border-collapse: separate; /* wel of geen ruimte tussen de celranden (seperate / collapse)*/
-    border-spacing: 5px; /* de afstand tussen de randen van aangrenzende cellen */
-}
-.afbeeldingen th, .afbeeldingen td {
-    border-style: none; /*(dotted/solid/double/dashed)*/
-}
+
+
 /* Homepagina */
 /*#home {
     overflow-y: hidden;  zorgt ervoor dat er niet gescrold kan worden (in de y-richting) op de home-pagina - (scroll/hidden/auto/visible) 
@@ -82,51 +71,7 @@ li a:hover {
     background-color: #008080;
     color: white;
 }
-    
-/* Spelregels */
-.picture {
-    margin-left: 21%;
-}
-/* Contactformulier */
-#contact_title {
-    margin-left: 40%;
-    font-weight: bold; /* (normal, bold, lighter, bolder, 100, 200, 300, 400 (normal), 500, 600, 700 (bold), 800, 900)*/
-    font-family: "Courier New",Courier, monospace;
-    font-size: 40px;
-    color: black;
-}
-#contactform {
-    margin-left: 40%;
-    font-family: "Courier New",Courier, monospace;
-    line-height: 25px;
-}
-#inputbutton_form {
-    background-color: #008080;
-    color: white;
-    font-weight: 400;
-    border: 0px;
-    font-family: "Courier New",Courier, monospace;
-    font-size:20px;
-}
-#resetbutton_form {
-    background-color: #999999;
-    color: white;
-    font-weight: 400;
-    border: 0px;
-    font-family: "Courier New",Courier, monospace;
-    font-size: 20px;
-}
-#inputbutton_form:hover {
-    /* zo wordt een item weergegeven wanneer de aanwijzer erover beweegt */
-    background-color: #555;
-}
-#resetbutton_form:hover {
-    /* zo wordt een item weergegeven wanneer de aanwijzer erover beweegt */
-    background-color: #555;
-}
-#thankyou { 
-    margin-left:40%;
-}
+
 /* Tekst */
 p {
     /* p is algemene tekst*/
