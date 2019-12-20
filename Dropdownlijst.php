@@ -39,7 +39,7 @@
 //eerste dropdownlijst
 $sql="SELECT klantnummer FROM klant";
 $klantnummers = array();
-$result=$con->query($sql);
+$klantnummers=$con->query($sql);
 
 echo "<p>";
 echo "<select name="Klantnummers">";
@@ -56,7 +56,7 @@ if(isset($_POST['formSubmit'])){
 //tweede dropdownlijst
 $sql="SELECT framenummer FROM fiets";
 $framenummers = array();
-$result2=$con->query($sql);
+$framenummers=$con->query($sql);
 
 echo "<p>";
 echo "<select name="Framenummers">";
@@ -73,8 +73,8 @@ if(isset($_POST['formSubmit'])){
 
 //ophalen verkoopnummer
 $sql3="SELECT LAST Verkoopnummer FROM Verkoop";
-$result3=$con->query($sql3);
-$verkoopnummer = $result3++;
+$opgehaaldVerkoopnummer=$con->query($sql3);
+$verkoopnummer = $opgehaaldVerkoopnummer + 1;
 
 //toevoegquery
 $sql4 = "INSERT INTO Verkoop (Verkoopnummer, Klantnummer, Framenummer)
