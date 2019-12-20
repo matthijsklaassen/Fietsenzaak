@@ -1,0 +1,20 @@
+<?php
+
+//eerste dropdownlijst
+$klant = array (SELECT klantnummer FROM fiets)
+
+<p>
+<select name="primary key">
+<option value="klantnummer">$klant</option>
+</select>
+</p>
+
+//tweede dropdownlijst
+
+$framenummer = array (SELECT framenummer FROM klant)
+<p>
+<select name="primary key">
+<option value="framenummer">$framenummer</option>
+</select>
+</p>
+?> 
