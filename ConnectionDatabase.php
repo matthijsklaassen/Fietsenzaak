@@ -1,6 +1,6 @@
 <?php
 $servername = "sql307.main-hosting.eu";
-$username = "uryRmFfURn";
+$username = "%";
 $password = "GN3VEONVDx";
 
 // Create connection
