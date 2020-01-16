@@ -64,11 +64,11 @@ li a:hover {
 #welkom {
     font-family: "Courier New",Courier, monospace;
     font-size: 15px;
-    display: block;
+    display: block; /*start nieuwe regel en over hele breedte*/
     padding-left: 2%;
     width: 45%;
     margin: 30% 0 0 23%; /* boven, rechts, onder, links */
-    background-color: #008080;
+    background-color: #008080; /* rand eromheen -> border: 2px solid/double/dotted black; */
     color: white;
 }
 
