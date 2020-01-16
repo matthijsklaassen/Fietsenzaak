@@ -78,7 +78,7 @@ $verkoopnummer = $opgehaaldVerkoopnummer + 1;
 
 //toevoegquery
 $sql4 = "INSERT INTO Verkoop (Verkoopnummer, Klantnummer, Framenummer)
-		VALUES ("$verkoopnummer", "$selectedKlantnummer", "$selectedFramenummer")"
+		VALUES ("$verkoopnummer", "$selectedKlantnummer", "$selectedFramenummer")";
 		if ($conn->query($sql4) === TRUE) {
     			echo "New record created successfully";
 		} 
