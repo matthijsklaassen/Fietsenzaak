@@ -3,7 +3,7 @@
 
   <head>
     
-    <link href="CSSFILE.css" rel="stylesheet" type="text/css" />
+    <link href="CSSFILE.css" rel="stylesheet" type="text/css" /> <!-- a link between a document and an external resource -->
     <meta charset="utf-8">
     
     <title>De lekke band</title>
