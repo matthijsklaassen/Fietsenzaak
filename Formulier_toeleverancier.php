@@ -36,7 +36,7 @@
  	        <input type="text" name="TI_naam">
              
 	        <label>Adres</label>
-        	<input type="text" name="TI_onderwerp">
+        	<input type="text" name="TI_adres">
 
 	        <label>Email</label>
 	        <input type="text" name="TI_email">
@@ -68,8 +68,6 @@ if(isset($_POST['verzenden'])) {
 		echo strip_tags($email);
 		echo strip_tags($bankrekeningnummer);
 	
-	
-
 		//ingevoerde waardes van het formulier tonen
 		echo "<br><br><br>"; "Naam: " . $naam . "<br>";
    		echo "Adres: " . $adres . "<br>";
