@@ -1,7 +1,6 @@
 <?php 
 include("ConnectionDatabase.php");
 
-
 $fietsenq = SELECT COUNT(Framenummer) FROM Fiets;
 $leverancierq = SELECT COUNT(TL_nummer) FROM Toeleverancier;
 $verkoopq = SELECT COUNT(Verkoopnummer) FROM Verkoop;
