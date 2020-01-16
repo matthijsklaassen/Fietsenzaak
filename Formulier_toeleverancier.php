@@ -69,7 +69,7 @@ if(isset($_POST['verzenden'])) {
 		echo strip_tags($bankrekeningnummer);
 	
 		//ingevoerde waardes van het formulier tonen
-		echo "<br><br><br>"; "Naam: " . $naam . "<br>";
+		echo "<br><br><br> Naam: " . $naam . "<br>";
    		echo "Adres: " . $adres . "<br>";
     		echo "Email: " . $email . "<br>";
     		echo "Bankrekeningnummer: " . $bankrekeningnummer . "<br>";
