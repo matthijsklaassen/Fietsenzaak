@@ -37,10 +37,11 @@
 
 <?php
 //eerste dropdownlijst
-$sql="SELECT klantnummer FROM klant";
-$klantnummers = array();
-$klantnummers=$con->query($sql);
+$sql="SELECT klantnummer FROM klant"; //sql query naam geven
+$klantnummers = array(); //initialiseren als array
+$klantnummers=$con->query($sql); //query naar database sturen + teruggestuurde gegevens aan klantnummers koppelen
 
+//loop over klantnummers; zolang niet aan einde +1; gegevens worden in dropdownlijst weergegeven
 echo "<p>";
 echo "<select name="Klantnummers">";
 for ($i = 0; i < count($klantnummers); i++) {
@@ -49,6 +50,7 @@ for ($i = 0; i < count($klantnummers); i++) {
 echo "</select>";
 echo "</p>";
 
+//als keuze dropdownlijst geselecteerd (en verzonden): geef betreffende waarde aan selectedklantnummer
 if(isset($_POST['formSubmit'])){
     $selectedKlantnummer = $_POST['Klantnummers'];
 }
@@ -71,7 +73,7 @@ if(isset($_POST['formSubmit'])){
     $selectedFramenummer = $_POST['Framenummers'];
 }
 
-//ophalen verkoopnummer
+//ophalen verkoopnummer; select last = allerlaatste regel tabel verkoop. Toevoegen regel dus +1
 $sql3="SELECT LAST Verkoopnummer FROM Verkoop";
 $opgehaaldVerkoopnummer=$con->query($sql3);
 $verkoopnummer = $opgehaaldVerkoopnummer + 1;
