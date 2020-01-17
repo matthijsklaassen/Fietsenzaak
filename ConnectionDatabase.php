@@ -1,17 +1,17 @@
 <?php
-$servername = "sql307.main-hosting.eu";
-//$servername= "auth-db307.hostinger.com";
+//$servername = "sql307.main-hosting.eu";
+$servername= "auth-db307.hostinger.com";
 //$servername = "localhost";
 
-// $database = "u392629804_groep1";
-// $username = "u392629804_usergroep1";
-// $password = "RwW$o1lQ";
-$username = "%";
-$password = "GN3VEONVDx";
+$database = "u392629804_groep1";
+$username = "u392629804_usergroep1";
+$password = "RwW$o1lQ";
+//$username = "%";
+//$password = "GN3VEONVDx";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password);
-// $conn = mysqli_connect($servername, $username, $password, $database);
+//$conn = new mysqli($servername, $username, $password);
+ $conn = mysqli_connect($servername, $username, $password, $database);
 
 // Check connection
 if ($conn->connect_error) {
