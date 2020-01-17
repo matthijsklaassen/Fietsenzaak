@@ -1,5 +1,8 @@
 <?php
 $servername = "sql307.main-hosting.eu";
+//$servername= "auth-db307.hostinger.com";
+//$servername = "localhost";
+
 // $database = "u392629804_groep1";
 // $username = "u392629804_usergroep1";
 // $password = "RwW$o1lQ";
